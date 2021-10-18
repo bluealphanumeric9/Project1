@@ -47,5 +47,6 @@ console.log(`The answer is ${eightBall}`);
     This is due to the nature of the problem or the variable itself. Random number produced is a constant which changes between 0 and 7 in every execution of the algorithm. What is the next step? After one random number is chosen, the empty string "eightBall" is renamed and the printed to the console. 
 
 
-2. It is a simple usage of if-else if - else logic and surely, apart from how to understand which variable type exactly to use (constant or changeable) and hence which syntax to employ( "let ... = '...' " or "constant = ...."). */
+2. It is a simple usage of if-else if - else logic and surely, apart from how to understand which variable type exactly to use (constant or changeable) and hence which syntax to employ( "let ... = '...' " or "constant = ....") simple list of different cases. 
+3. This example is important since it can be seen as the basis for much more complex structre flows and system architectures, since most of them will follow the same "logic", only the complexity of the task and modelling thereof will differ. */
 
