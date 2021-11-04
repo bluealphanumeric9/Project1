@@ -1,0 +1,27 @@
+Creating and assessing a simple list using numpy package in Python. 
+
+import numpy as np
+
+cupcakes = np.array([2, 0.75, 2, 1, 0.5])
+recipes = np.genfromtxt('recipes.csv',
+                        delimiter=',')
+#Create a NumPy array that represents this data. Each element should be a number                          
+print(recipes)
+#Each row represents a different recipe. Each column represents a different ingredient.
+eggs=recipes[:,2]
+#Select all elements from the 3rd column and save them to the variable eggs.
+
+
+one_egg = recipes[(eggs == 1)]
+#Which recipes require exactly 1 egg? Use a logical statement to get True or False for each value of eggs.
+cupcakes = recipes[0,:]
+#Create a variable for cookies with the data from the 3rd row.
+print(cupcakes)
+double_batch = cupcakes*2
+# Get the number of ingredients for a double batch of cupcakes by using multiplication on cupcakes.
+grocery_list = double_batch + cookies
+#Create a new variable called grocery_list by adding cookies and double_batch.
+
+
+Comments:
+Note that creating an array with numpy interprets addition as "pasting two objects together" and not as an addition. 
